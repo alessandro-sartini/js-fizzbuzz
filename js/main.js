@@ -1,4 +1,5 @@
 /*
+
 Consegna:
 Scrivi un programma che stampi i numeri da 1 a 100,
 
@@ -35,17 +36,22 @@ Buon lavoro e buon divertimento! :faccia_leggermente_sorridente:
 
 for (let i = 1; i <= 100; i++){
     
-    if (i % 3===0 && i % 5===0) {
+    if (i % 3 === 0 && i % 5 === 0) {
+        
         console.log('FizzBuzz')
-    } else if (i % 5===0) {
+
+    } else if (i % 5 === 0) {
+    
         console.log('Buzz')
  
-    } else if (i % 3===0) {
+    } else if (i % 3 === 0) {
+        
         console.log('Fizz')
    
     } else {
+
         console.log(i)
-  
+
     }
 
 }
